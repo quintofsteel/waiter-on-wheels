@@ -74,7 +74,7 @@ class Ui_customerInformation(object):
 
     def retranslateUi(self, customerInformation):
         _translate = QtCore.QCoreApplication.translate
-        customerInformation.setWindowTitle(_translate("customerInformation", "Dialog"))
+        customerInformation.setWindowTitle(_translate("customerInformation", "Customer Information"))
         self.waiterLabel.setText(_translate("customerInformation", "WAITER ON WHEELS"))
         self.informationLabel.setText(_translate("customerInformation", "CUSTOMER INFORMATION"))
         self.addressTextEdit.setPlaceholderText(_translate("customerInformation", "Customer Address:"))
