@@ -75,7 +75,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "Driver Location"))
         self.waiterLabel.setText(_translate("Dialog", "WAITER ON WHEELS"))
         self.gpsLabel.setText(_translate("Dialog", "Driver Location [GPS]"))
         __sortingEnabled = self.tableWidget.isSortingEnabled()
