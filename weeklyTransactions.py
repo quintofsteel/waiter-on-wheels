@@ -90,7 +90,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "Weekly Transactions"))
         self.orderLabel.setText(_translate("Dialog", "Total Orders"))
         self.totalOrderLineEdit.setPlaceholderText(_translate("Dialog", "Total Orders:"))
         self.collectionLineEdit.setPlaceholderText(_translate("Dialog", "Total Collection:(inclusive all)"))
