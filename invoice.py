@@ -85,7 +85,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "Invoice"))
         self.waiterLabel.setText(_translate("Dialog", "WAITER ON WHEELS"))
         self.timeLineEdit.setPlaceholderText(_translate("Dialog", "Time"))
         self.dateLineEdit.setPlaceholderText(_translate("Dialog", "Date"))
