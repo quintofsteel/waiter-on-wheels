@@ -73,7 +73,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        Dialog.setWindowTitle(_translate("Dialog", "Driver Information"))
         self.codeLineEdit.setPlaceholderText(_translate("Dialog", "Order Code:"))
         self.driverLabel.setText(_translate("Dialog", "DRIVER INFORMATION"))
         self.contactLineEdit.setPlaceholderText(_translate("Dialog", "Contact Number:"))
